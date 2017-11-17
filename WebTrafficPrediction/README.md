@@ -23,3 +23,8 @@ Process to reproduce the solution:
 * Run the first_stage2.ipynb notebook.  It computes the first dat at which a page data is non zero. It should create a file in the Kaggle/data directory:
     * first.csv
     
+* Run the xgb_23_keras_7_2_stage2-sept-10-2.ipynb notebook.  This creates the final model by running xgboost on the residuals for the neural netrowk predictions. It uses the past visits plus the above two notebook outputs as features.  It should produce files in the Kaggle/submisison directory, including:
+    * xgb_1_2017-09-12-19-14-14_test.csv
+
+* This file is my second submisison. It scores 36.78499 and got me the second place.
+    
