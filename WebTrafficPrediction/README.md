@@ -16,7 +16,7 @@ Process to reproduce the solution:
       
 * The file keras_kf_12_stage2_sept_10_test.csv is my first submission.  It scores 36.91121 and would have got the 4th rank overall.
 
-* run Pred_11-stage2-sept-10.ipynb notebook.  This creates a median base dmodel and computes predictions out of it.  It should produce files in the submissions directory, including:
+* run Pred_11-stage2-sept-10.ipynb notebook.  This creates a median based model and computes predictions out of it.  It should produce files in the submissions directory, including:
     * pred_10_stage2_sept_10_train.csv
     * pred_10_stage2_sept_10_test.csv
 
