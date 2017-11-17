@@ -6,7 +6,7 @@ Process to reproduce the solution:
 
 * Clone the Kaggle repository
 
-* Download competition datainto the Kaggle/input directory
+* Download competition data into the Kaggle/input directory
 
 * Go to the Kaggle/WebTrafficPrediction directory
 
