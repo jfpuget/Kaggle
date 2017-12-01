@@ -23,8 +23,9 @@ Process to reproduce the solution:
 * Run the first_stage2.ipynb notebook.  It computes the first date at which a page data is non zero. It should create a file in the Kaggle/data directory:
     * first.csv
     
-* Run the xgb_23_keras_7_2_stage2-sept-10-2.ipynb notebook.  This creates the final model by running xgboost on the residuals for the neural network predictions. It uses the past visits plus the above two notebook outputs as features.  It should produce files in the Kaggle/submisison directory, including:
+* Run the xgb_23_keras_7_2_stage2-sept-10-2.ipynb notebook.  This creates the final model by running xgboost on the residuals for the neural network predictions. It uses the past visits plus the above two notebook outputs as features.  It should produce files in the Kaggle/submission directory, including:
     * xgb_1_2017-09-12-19-14-14_test.csv
 
-* This file is my second submisison. It scores 36.78499 and got me the second place.
+* This file is my second submission. It scores 36.78499 and got me the second place.
     
+Kaggle asks to provide a simpler model that provides 90% of the performance, if possible.  Such model is provided in file keras_simple.ipynb.  Its feature set is much simpler, basically the median of visits for each of the last 8 weeks of training data, plus the site (eg es.wikipedia.org), and the agent-access method.  Its output score 37.58692 and would have got the 9th rank.
