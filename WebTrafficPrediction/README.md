@@ -2,6 +2,9 @@
 
 Kaggle competition site: https://www.kaggle.com/c/web-traffic-time-series-forecasting
 
+I give some descrptin of the approach used on the competition forum:
+https://www.kaggle.com/c/web-traffic-time-series-forecasting/discussion/39395
+
 Process to reproduce the solution:
 
 * Clone the Kaggle repository
